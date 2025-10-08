@@ -48,7 +48,6 @@ fn main() {
         let temp_f = (temp_c * 9.0 / 5.0) + 32.0;
 
         println!("Converted to Celsius: {temp_c}");
-        println!("Converted to Fahrenheit: {temp_f}");
         
     }
 

@@ -16,10 +16,29 @@
 // Signed: the vale can be negative or positive
 // Unsigned: the vale can only be positive
 
-// Floating
+// // Floating
+// fn main() {
+//     let x = 2.0; // f64
+//     let y: f32 = 3.0; // f32
+//     println!("The value of x is: {x}");
+//     println!("The value of y is: {y}");
+// }
+
+// Numeric Operations
 fn main() {
-    let x = 2.0; // f64
-    let y: f32 = 3.0; // f32
-    println!("The value of x is: {x}");
-    println!("The value of y is: {y}");
+    let sum = 5 + 10;
+
+    let difference = 95.5 - 4.3;
+
+    let multiplication = 4 * 30;
+
+    let division = 56.7 / 32.2;
+
+    let remainder = 43 % 5;
+
+    println!("Sum: {sum}");
+    println!("Difference: {difference}");
+    println!("Multiplication: {multiplication}");
+    println!("Division: {division}");
+    println!("Remainder: {remainder}");
 }
